@@ -2,7 +2,9 @@ const ArgumentType = require('../../extension-support/argument-type');
 const BlockType = require('../../extension-support/block-type');
 const formatMessage = require('format-message');
 
-getInfo () {
+class SomeBlocks {                  
+    getinfo () {
+        return {
 const DOMPurify  = require('dompurify');
 
 const localisation = {
